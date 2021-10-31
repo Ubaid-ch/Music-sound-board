@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: skyblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+ 
+.btn:hover{
+    opacity: 0.8;
+}
